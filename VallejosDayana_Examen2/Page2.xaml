@@ -17,8 +17,8 @@
         <Label Text="Dayana" Grid.Row="0" Grid.Column="0" />
         <Label Text="Paulette" Grid.Row="0" Grid.Column="1" />
         <Label Text="Vallejos" Grid.Row="1" Grid.Column="0" 
-               Style="{StaticResource ApellidoLabelStyle}" />
+               Style="{DynamicResource ApellidoLabelStyle}" />
         <Label Text="Casanova" Grid.Row="1" Grid.Column="1" 
-               Style="{StaticResource ApellidoLabelStyle}" />
+               Style="{DynamicResource ApellidoLabelStyle}" />
     </Grid>
 </ContentPage>
