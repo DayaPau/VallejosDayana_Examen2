@@ -4,11 +4,22 @@
              x:Class="VallejosDayana_Examen2.Page1"
              Title="Page1">
     <StackLayout Padding="20">
-        <Label x:Name="initialsLabel" Text="S. C." FontSize="24" HorizontalOptions="Center" />
+       
+        <Label x:Name="initialsLabel" Text="D. V." FontSize="24" HorizontalOptions="Center" />
+
         <Entry x:Name="nameEntry" Placeholder="Nombre" />
+
         <Entry x:Name="phoneEntry" Placeholder="Número de Teléfono" Keyboard="Telephone" />
+
         <Button Text="Realizar Recarga" Clicked="OnRecargaClicked" />
-        <Label x:Name="lastRecargaLabel" Text="{Binding LastRecarga}" HorizontalOptions="Center" />
+
+     
+        
+        <Label Text="Última Recarga: " FontSize="18" HorizontalOptions="Center" />
+        <Label Text="{Binding LastRecarga}" 
+               FontSize="16" 
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand" />
     </StackLayout>
     
 </ContentPage>
